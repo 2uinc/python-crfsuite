@@ -3,6 +3,7 @@ import glob
 import sys
 from setuptools import setup, Extension
 from distutils.command.build_ext import build_ext
+import platform
 
 sources = ['pycrfsuite/_pycrfsuite.cpp', 'pycrfsuite/trainer_wrapper.cpp']
 
